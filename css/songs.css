@@ -1,0 +1,146 @@
+#songs{
+position: sticky;
+top: 3px;
+z-index: 1;
+display: flex;
+justify-content: center;
+margin: 0 auto;
+height: 50px;
+width: 35rem;
+border-radius:10px;
+}
+.layout{
+    padding-bottom: 0;
+}
+.align{
+    display: flex;
+}
+.single_slider {
+padding-left: 40px;
+padding-right: 28px;
+}
+
+.left_nav_con{
+   width: 20%;
+    border-right: 1px solid #363535;
+   
+}
+.left_nav{
+    position: sticky;
+    top: 0;
+    padding-left: 35px;
+    padding-top: 50px;
+}
+.left_nav .logo{
+    justify-content: start;
+}
+.song_search{
+    margin-top: 30px;
+    position: relative;
+    flex-direction: column;
+}
+.song_search input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white  ;
+    border-radius: 0;
+    color: white;
+    padding: 5px 20px;
+    font-size: 17px;
+    height: 40px;
+}
+.song_search ::placeholder{
+    color: white;
+}
+.song_search .fa-magnifying-glass{
+    left: 0;
+    width: 20px;
+    padding: 0;
+    color: white;
+    top: 12px;
+}
+.browse{
+    margin-top: 20px;
+    width: 100%;
+}
+.browse h6{
+    padding: 5px 0;
+}
+label{
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+}
+.browse .checkbox{
+    height: auto;
+    margin-right: 2px;
+    
+}
+.right_nav{
+    width: 80%;
+    padding-bottom: 100px;
+}
+.align .logo_sec{
+    width: 100%;
+    height: 100vh;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+}
+#songs .dropdown{
+    width: 100%;
+}
+#songs li{
+    padding:13px 15px;
+}
+#songs ul{
+    width: 100%;
+    text-align: center;
+}
+#songs .movies{
+    top: 50px;
+}
+#songs .categories{
+    top: 50px;
+}
+#songs .mystuff{
+    top: 50px;
+}
+#songs .dropdown li{
+    margin: 5px;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    text-align: center;
+    color: white;
+    font-weight: 300;
+}
+h6{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+.box:hover{
+    transform: scale3d(1.1,1.1,1.1);
+}
+#artist .box img{
+    border-radius: 50%;
+}
+#artist .box:hover{
+    transform: none;
+}
+#trending .box{
+    position: relative;
+}
+#trending  h6{
+    top: 50px;
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    left: -41px;
+}
+#trending .Movie_container{
+    justify-content: space-around;
+}
